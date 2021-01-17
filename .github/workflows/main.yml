@@ -2,7 +2,7 @@
 name: sync-lxk0301/jd_scripts-gitee
 on:
   schedule:
-  - cron:  "*/15 * * * *"
+  - cron:  "0,10,15 * * * *"
   workflow_dispatch:
   watch:
     types: started
